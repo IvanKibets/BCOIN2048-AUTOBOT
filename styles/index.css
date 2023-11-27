@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(244, 244, 244);
+    margin: 0;    
+}
+
+.Header{
+    background-color: blanchedalmond;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 1rem;;
+    /* justify-items: center; */
+}
+
+a{
+    color: rgb(48, 48, 48);
+    text-decoration: none;
+}
+
+.Footer{
+    background-color: rgb(73, 73, 73);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Copyright{
+    color: white;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - 140px) ;
+}
+
+.SideBar{
+    background-color: rgb(165, 73, 42);
+    width: 200px;
+    color: white;
+}
+
+.Content{
+    flex:1;
+}
+
+li{
+    margin-top: 10px;
+}
